@@ -4,6 +4,12 @@ A classification project using feature detection and matching using OpenCV
 ## Summary:-
 In this project, I used the OpenCV library to find, describe, and match features. This was done for the task of classifying buildings. Here, the feature descriptors of the query image are matched with the features of all the trained images. The best match is the trained image whose features match the query image the most. And the matching of feature descriptions is based on Euclidean distance. We have used the ORB (Oriented FAST and Rotated BRIEF), which is a fusion of FAST keypoint detector and BRIEF descriptor with many modifications to enhance the performance.
 
+## Contents:-
+main.py -> contains the entire tool functionality
+checker.py -> contains code to check the matching between two images, so as to get an understanding of the threshold values and the in-built functions
+video.mp4 -> testing video
+train -> training images folder
+
 ## Steps Involved:-
 1) Instantiate the ORB algorithm with parameter set to 1500 features 
 2) Provide the train path and intialise lists for storing images and class names
